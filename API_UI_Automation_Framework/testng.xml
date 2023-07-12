@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Intertrust Sanity">
+  <test name="Sanity">
+    <classes>
+      <class name="tests.HomeTests.HomeMenuBarTest"/>
+      <class name="tests.WeatherDataTests.WeatherDataSearchTest"/>
+      <class name="api.Tests.WeatherData.WeatherDataGetTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-12T20:07:51 IST" name="Intertrust Sanity" finished-at="2023-07-12T20:08:27 IST" duration-ms="36802">
+    <groups>
+    </groups>
+    <test started-at="2023-07-12T20:07:51 IST" name="Sanity" finished-at="2023-07-12T20:08:27 IST" duration-ms="36802">
+      <class name="tests.WeatherDataTests.WeatherDataSearchTest">
+        <test-method signature="test_openWeatherDataTabSearchPuneCity_verifyCityWeatherDetailItemNumber()[pri:0, instance:tests.WeatherDataTests.WeatherDataSearchTest@67c33749]" started-at="2023-07-12T20:08:01 IST" name="test_openWeatherDataTabSearchPuneCity_verifyCityWeatherDetailItemNumber" finished-at="2023-07-12T20:08:11 IST" duration-ms="10149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_openWeatherDataTabSearchPuneCity_verifyCityWeatherDetailItemNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WeatherDataTests.WeatherDataSearchTest@67c33749]" started-at="2023-07-12T20:08:11 IST" name="tearDown" finished-at="2023-07-12T20:08:11 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test_openWeatherDataTabSearchPuneCity_verifyHistoricalAndWeatherMessage()[pri:0, instance:tests.WeatherDataTests.WeatherDataSearchTest@67c33749]" started-at="2023-07-12T20:08:11 IST" name="test_openWeatherDataTabSearchPuneCity_verifyHistoricalAndWeatherMessage" finished-at="2023-07-12T20:08:21 IST" duration-ms="9721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_openWeatherDataTabSearchPuneCity_verifyHistoricalAndWeatherMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.WeatherDataTests.WeatherDataSearchTest@67c33749]" started-at="2023-07-12T20:08:21 IST" name="tearDown" finished-at="2023-07-12T20:08:21 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WeatherDataTests.WeatherDataSearchTest -->
+      <class name="api.Tests.WeatherData.WeatherDataGetTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:21 IST" name="setup" finished-at="2023-07-12T20:08:22 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_getPuneData_verifyLatitudeLongitude()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:22 IST" name="test_getPuneData_verifyLatitudeLongitude" finished-at="2023-07-12T20:08:25 IST" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPuneData_verifyLatitudeLongitude -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:25 IST" name="setup" finished-at="2023-07-12T20:08:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_getPuneData_verifyResolvedAddress()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:25 IST" name="test_getPuneData_verifyResolvedAddress" finished-at="2023-07-12T20:08:26 IST" duration-ms="1254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPuneData_verifyResolvedAddress -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:26 IST" name="setup" finished-at="2023-07-12T20:08:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_getPuneData_verifyStatusCode()[pri:0, instance:api.Tests.WeatherData.WeatherDataGetTests@fba92d3]" started-at="2023-07-12T20:08:26 IST" name="test_getPuneData_verifyStatusCode" finished-at="2023-07-12T20:08:27 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getPuneData_verifyStatusCode -->
+      </class> <!-- api.Tests.WeatherData.WeatherDataGetTests -->
+      <class name="tests.HomeTests.HomeMenuBarTest">
+        <test-method signature="test_openHomePage_verifyMenuBarItems()[pri:0, instance:tests.HomeTests.HomeMenuBarTest@6631f5ca]" started-at="2023-07-12T20:07:51 IST" name="test_openHomePage_verifyMenuBarItems" finished-at="2023-07-12T20:08:01 IST" duration-ms="10024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_openHomePage_verifyMenuBarItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTests.HomeMenuBarTest@6631f5ca]" started-at="2023-07-12T20:08:01 IST" name="tearDown" finished-at="2023-07-12T20:08:01 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomeTests.HomeMenuBarTest -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Intertrust Sanity -->
+</testng-results>
